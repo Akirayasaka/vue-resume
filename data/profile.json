@@ -1,0 +1,40 @@
+{
+    "name": "Akira Kao",
+    "profilePictureUrl": "images/pictures/avatar.jpg",
+
+    "locales": {
+        "en": {
+            "credits": "Designed by <strong><a href='https://github.com/Akirayasaka'>Akira</a></strong>",
+            "role": "Software Engineer"
+        },
+
+        "ja": {
+            "credits": "デザイン: <strong><a href='https://github.com/Akirayasaka'>Akira</a></strong>",
+            "role": "ソフトウェアエンジニア"
+        },
+
+        "zh": {
+            "name": "Akira Kao",
+            "credits": "設計：<strong><a href='https://github.com/Akirayasaka'>Akira</a></strong>",
+            "role": "軟體工程師"
+        }
+    },
+
+    "contactOptions": [
+        {
+            "id": "email",
+            "value": "kuramal12@msn.com",
+            "valueShort": "kuramal12@msn.com",
+            "faIcon": "fa-regular fa-envelope",
+            "href": "mailto:kuramal12@msn.com"
+        },
+
+        {
+            "id": "github",
+            "value": "Akira",
+            "valueShort": "Akira",
+            "faIcon": "fa-brands fa-github",
+            "href": "https://github.com/Akirayasaka"
+        }
+    ]
+}

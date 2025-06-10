@@ -1,0 +1,540 @@
+{
+  "articles": [
+    {
+      "id": 1,
+      "component": "ArticleSkills",
+      "locales": {},
+      "settings": {
+        "order_items_by": "id",
+        "order_items_sort": "asc",
+        "max_items_per_line": 2,
+        "transparent_item_icon_background": false,
+        "small_icons": false,
+        "chart": null
+      },
+      "items": [
+        {
+          "id": 1,
+          "dateStart": null,
+          "img": null,
+          "fallbackFaIcon": "fa-solid fa-paint-roller",
+          "fallbackFaIconColor": null,
+          "percentage": null,
+          "locales": {
+            "en": {
+              "title": "Design Principles",
+              "description": "Masterful at creating captivating designs, blending color theory, typography, layout, and balance for effective messaging.",
+              "level": null
+            },
+            "ja": {
+              "title": "デザイン原則",
+              "description": "色彩理論、タイポグラフィ、レイアウト、バランスなどの基本原則を活用し、魅力的なデザインを巧みに作成し、効果的にメッセージを伝えます",
+              "level": null
+            },
+            "zh": {
+              "title": "設計原則",
+              "description": "運用色彩理論、排版、版面構圖和平衡等基本原則，巧妙打造視覺吸引的設計",
+              "level": null
+            }
+          }
+        },
+
+        {
+          "id": 2,
+          "dateStart": null,
+          "img": null,
+          "fallbackFaIcon": "fa-solid fa-mobile-alt",
+          "fallbackFaIconColor": null,
+          "percentage": null,
+          "locales": {
+            "en": {
+              "title": "Responsive Layouts",
+              "description": "Proficient in crafting adaptable layouts for diverse devices, ensuring optimal user experience.",
+              "level": null
+            },
+            "ja": {
+              "title": "レスポンシブレイアウト",
+              "description": "多様なデバイスに対応したレイアウトを作成し、最適なユーザー体験を実現します",
+              "level": null
+            },
+            "zh": {
+              "title": "響應式設計",
+              "description": "根據不同的裝置平台，調整設計元素和內容來適應，確保在各種解析度下都能有最佳的瀏覽",
+              "level": null
+            }
+          }
+        },
+
+        {
+          "id": 3,
+          "dateStart": null,
+          "img": null,
+          "fallbackFaIcon": "fa-solid fa-vector-square",
+          "fallbackFaIconColor": null,
+          "percentage": null,
+          "locales": {
+            "en": {
+              "title": "Wireframing",
+              "description": "Following the layout specifications provided by the UI/UX designer, analyze the workflow and implement the development accordingly.",
+              "level": null
+            },
+            "ja": {
+              "title": "ワイヤーフレーミング",
+              "description": "UI/UXデザイナーが提供したレイアウト仕様に従い、ワークフローを分析し、それに基づいて開発を実施します",
+              "level": null
+            },
+
+            "zh": {
+              "title": "線框圖設計",
+              "description": "根據UIUX設計師給的佈局規劃圖，理解流程並進行開發",
+              "level": null
+            }
+          }
+        },
+
+        {
+          "id": 4,
+          "dateStart": null,
+          "img": null,
+          "fallbackFaIcon": "fa-solid fa-check-double",
+          "fallbackFaIconColor": null,
+          "percentage": null,
+          "locales": {
+            "en": {
+              "title": "Usability Testing",
+              "description": "Enhancing user experiences through comprehensive usability testing.",
+              "level": null
+            },
+            "ja": {
+              "title": "ユーザビリティテスト",
+              "description": "ユーザビリティテストを通じてユーザー体験を向上させます",
+              "level": null
+            },
+            "zh": {
+              "title": "可靠度測試",
+              "description": "透過測試工具驗證程式碼的穩定性",
+              "level": null
+            }
+          }
+        },
+
+        {
+          "id": 5,
+          "dateStart": null,
+          "img": null,
+          "fallbackFaIcon": "fa-solid fa-expand-arrows-alt",
+          "fallbackFaIconColor": null,
+          "percentage": null,
+          "locales": {
+            "en": {
+              "title": "Interaction Design",
+              "description": "Proficient in creating intuitive and seamless interactions for user-friendly experiences, harmonizing aesthetics and usability.",
+              "level": null
+            },
+            "ja": {
+              "title": "インタラクションデザイン",
+              "description": "ユーザーフレンドリーな体験のために直感的でシームレスなインタラクションを作成するスキルを持っています",
+              "level": null
+            },
+            "zh": {
+              "title": "互動式設計",
+              "description": "建立直觀流暢的互動介面，確保使用者能有良好的體驗",
+              "level": null
+            }
+          }
+        },
+
+        {
+          "id": 6,
+          "dateStart": null,
+          "img": null,
+          "fallbackFaIcon": "fa-solid fa-laptop-code",
+          "fallbackFaIconColor": null,
+          "percentage": null,
+          "locales": {
+            "en": {
+              "title": "Prototyping",
+              "description": "Skilled in translating concepts into interactive prototypes for testing and refinement.",
+              "level": null
+            },
+            "ja": {
+              "title": "プロトタイピング",
+              "description": "コンセプトをインタラクティブなプロトタイプに落とし込み、テストや改善を行うスキルがあります",
+              "level": null
+            },
+            "zh": {
+              "title": "原型設計",
+              "description": "遵循開發原則進行架構設計，降低耦合度和重工的機率，並提高可維護性",
+              "level": null
+            }
+          }
+        }
+      ]
+    },
+
+    {
+      "id": 2,
+      "component": "ArticleSkills",
+      "locales": {
+        "en": { "title": "Frontend Stack" },
+        "ja": { "title": "フロントエンド スキル" },
+        "zh": { "title": "前端技術" }
+      },
+      "settings": {
+        "order_items_by": "percentage",
+        "order_items_sort": "desc",
+        "max_items_per_line": 2,
+        "transparent_item_icon_background": true,
+        "small_icons": false,
+        "chart": null
+      },
+      "items": [
+        {
+          "id": 1,
+          "dateStart": { "year": 2019, "month": 8 },
+          "img": null,
+          "fallbackFaIcon": "fa-brands fa-html5",
+          "fallbackFaIconColor": null,
+          "percentage": 95,
+          "locales": {
+            "en": {
+              "title": "HTML 5",
+              "description": "Experienced with HTML5 elements and features."
+            },
+            "ja": {
+              "title": "HTML 5",
+              "description": "HTML5要素と機能の熟練した運用"
+            },
+            "zh": {
+              "title": "HTML 5",
+              "description": "熟練運用HTML5元素和功能"
+            }
+          }
+        },
+
+        {
+          "id": 2,
+          "dateStart": { "year": 2019, "month": 8 },
+          "img": null,
+          "fallbackFaIcon": "fa-brands fa-css3-alt",
+          "fallbackFaIconColor": null,
+          "percentage": 90,
+          "locales": {
+            "en": {
+              "title": "CSS 3",
+              "description": "Skilled in advanced CSS3 techniques like flexbox and animations."
+            },
+            "ja": {
+              "title": "CSS 3",
+              "description": "Flexboxやアニメーションなどの高度なCSS3技術に熟練しています"
+            },
+            "zh": {
+              "title": "CSS 3",
+              "description": "擅長使用CSS3進階新技術，如flexbox和動畫"
+            }
+          }
+        },
+
+        {
+          "id": 3,
+          "dateStart": { "year": 2019, "month": 9 },
+          "img": null,
+          "fallbackFaIcon": "fa-brands fa-js-square",
+          "fallbackFaIconColor": null,
+          "percentage": 85,
+          "locales": {
+            "en": {
+              "title": "Javascript",
+              "description": "Skilled in JavaScript for dynamic, interactive web applications."
+            },
+            "ja": {
+              "title": "Javascript",
+              "description": "動的でインタラクティブなWebアプリケーションを構築するためのJavaScriptに熟練しています"
+            },
+            "zh": {
+              "title": "Javascript",
+              "description": "使用JavaScript做出具有互動反饋性的網頁程式"
+            }
+          }
+        },
+
+        {
+          "id": 4,
+          "dateStart": { "year": 2021, "month": 3 },
+          "img": null,
+          "fallbackFaIcon": "fa-brands fa-vuejs",
+          "fallbackFaIconColor": null,
+          "percentage": 90,
+          "locales": {
+            "en": {
+              "title": "Vue 3",
+              "description": "Capable of building and deploying complex Vue applications."
+            },
+            "ja": {
+              "title": "Vue 3",
+              "description": "複雑なVueアプリケーションの構築とデプロイが可能です"
+            },
+            "zh": {
+              "title": "Vue 3",
+              "description": "具備設計底層架構的能力，能獨立開發佈署專案"
+            }
+          }
+        },
+
+        {
+          "id": 5,
+          "dateStart": { "year": 2020, "month": 3 },
+          "img": null,
+          "fallbackFaIcon": "fa-solid fa-code",
+          "fallbackFaIconColor": null,
+          "percentage": 75,
+          "locales": {
+            "en": {
+              "title": "ASP.NET C#",
+              "description": "Build complete projects using MVC architecture, binding Models to cshtml for page implementation."
+            },
+            "ja": {
+              "title": "ASP.NET C#",
+              "description": "MVCアーキテクチャを使用して完全なプロジェクトを構築し、Modelをcshtmlにバインディングしてページ実装を行う"
+            },
+            "zh": {
+              "title": "ASP.NET C#",
+              "description": "使用MVC架構建立完整的專案，將Model綁定到cshtml進行頁面實作"
+            }
+          }
+        },
+
+        {
+          "id": 6,
+          "dateStart": { "year": 2022, "month": 11 },
+          "img": null,
+          "fallbackFaIcon": "fa-brands fa-angular",
+          "fallbackFaIconColor": null,
+          "percentage": 75,
+          "locales": {
+            "en": {
+              "title": "Angular",
+              "description": ""
+            },
+            "ja": {
+              "title": "Angular",
+              "description": ""
+            },
+            "zh": {
+              "title": "Angular",
+              "description": ""
+            }
+          }
+        }
+      ]
+    },
+
+    {
+      "id": 3,
+      "component": "ArticleSkills",
+      "locales": {
+        "en": { "title": "Backend Stack" },
+        "ja": { "title": "バックエンド スキル" },
+        "zh": { "title": "後端技術" }
+      },
+      "settings": {
+        "order_items_by": "id",
+        "order_items_sort": "asc",
+        "max_items_per_line": 2,
+        "transparent_item_icon_background": true,
+        "small_icons": false,
+        "chart": null
+      },
+      "items": [
+        {
+          "id": 1,
+          "dateStart": { "year": 2020, "month": 3 },
+          "img": null,
+          "fallbackFaIcon": "fa-solid fa-code",
+          "fallbackFaIconColor": null,
+          "percentage": 90,
+          "locales": {
+            "en": {
+              "title": "ASP.NET C#",
+              "description": "Build Repository architecture and access databases through Dapper/Entity Framework."
+            },
+            "ja": {
+              "title": "ASP.NET C#",
+              "description": "Repositoryアーキテクチャを構築し、Dapper/Entity Frameworkを通じてデータベースにアクセスする"
+            },
+            "zh": {
+              "title": "ASP.NET C#",
+              "description": "建立Repository架構，並透過 dapper/Entity Framework來存取資料庫"
+            }
+          }
+        },
+        {
+          "id": 2,
+          "dateStart": { "year": 2020, "month": 3 },
+          "img": null,
+          "fallbackFaIcon": "fa-solid fa-database",
+          "fallbackFaIconColor": null,
+          "percentage": 80,
+          "locales": {
+            "en": {
+              "title": "MS-SQL",
+              "description": "Skilled in managing MS-SQL databases, including schema design and query optimization."
+            },
+            "ja": {
+              "title": "MS-SQL",
+              "description": "MS-SQLデータベースの管理、スキーマ設計、クエリ最適化に熟練しています"
+            },
+            "zh": {
+              "title": "MS-SQL",
+              "description": "管理MS-SQL資料庫，包括模式設計和分析查詢語法的cost並盡可能最佳化"
+            }
+          }
+        },
+
+        {
+          "id": 3,
+          "dateStart": { "year": 2024, "month": 1 },
+          "img": null,
+          "fallbackFaIcon": "fa-brands fa-php",
+          "fallbackFaIconColor": null,
+          "percentage": 60,
+          "locales": {
+            "en": {
+              "title": "PHP",
+              "description": "Experienced in building dynamic web apps with PHP, including server-side logic and database integration."
+            },
+            "ja": {
+              "title": "PHP",
+              "description": "PHPを使用して動的なWebアプリを構築した経験があり、サーバーサイドロジックやデータベース連携も対応可能です"
+            },
+            "zh": {
+              "title": "PHP",
+              "description": "使用PHP建立動態網頁，包括伺服器端邏輯和資料庫連接"
+            }
+          }
+        },
+
+        {
+          "id": 4,
+          "dateStart": { "year": 2024, "month": 1 },
+          "img": null,
+          "fallbackFaIcon": "fa-brands fa-node",
+          "fallbackFaIconColor": null,
+          "percentage": 50,
+          "locales": {
+            "en": {
+              "title": "NodeJS",
+              "description": ""
+            },
+            "ja": {
+              "title": "NodeJS",
+              "description": ""
+            },
+            "zh": {
+              "title": "NodeJS",
+              "description": ""
+            }
+          }
+        }
+      ]
+    },
+
+    {
+      "id": 4,
+      "component": "ArticleSkills",
+      "locales": {
+        "en": { "title": "Languages" },
+        "ja": { "title": "言語" },
+        "zh": { "title": "語言" }
+      },
+      "settings": {
+        "order_items_by": "id",
+        "order_items_sort": "asc",
+        "max_items_per_line": 1,
+        "small_icons": true,
+        "transparent_item_icon_background": true,
+        "chart": null
+      },
+      "items": [
+        {
+          "id": 1,
+          "dateStart": null,
+          "img": "images/flags/zh-tw.png",
+          "fallbackFaIcon": null,
+          "fallbackFaIconColor": null,
+          "percentage": null,
+          "locales": {
+            "en": {
+              "title": "Mandarin",
+              "description": "Fluent in both spoken and written Mandarin; confident in professional communication.",
+              "level": "Native"
+            },
+            "ja": {
+              "title": "中国語",
+              "description": "中国語の会話と書き言葉が流暢で、専門的なコミュニケーションにも自信があります。",
+              "level": "母語"
+            },
+            "zh": {
+              "title": "中文",
+              "description": "流利的中文口說和書寫能力，能夠自信地進行專業溝通",
+              "level": "母語"
+            }
+          }
+        },
+
+        {
+          "id": 2,
+          "dateStart": null,
+          "img": "images/flags/en-us.png",
+          "fallbackFaIcon": null,
+          "fallbackFaIconColor": null,
+          "percentage": null,
+          "locales": {
+            "en": {
+              "title": "English",
+              "description": "Fluent in reading relevant source materials and able to communicate with clients via email.",
+              "level": "Intermediate"
+            },
+            "ja": {
+              "title": "英語",
+              "description": "関連する原文資料を流暢に読解し、電子メールを通じてクライアントとコミュニケーションを取ることができる",
+              "level": "中級"
+            },
+            
+            "zh": {
+              "title": "英文",
+              "description": "流暢閱讀相關原文資料，並能透過電子郵件與客戶溝通",
+              "level": "中級"
+            }
+          }
+        },
+
+        {
+          "id": 3,
+          "dateStart": null,
+          "img": "images/flags/ja.png",
+          "fallbackFaIcon": null,
+          "fallbackFaIconColor": null,
+          "percentage": null,
+          "locales": {
+            "en": {
+              "title": "Japanese",
+              "description": "Intermediate proficiency in Japanese language; can hold conversations and understand written text.",
+              "level": "Intermediate"
+            },
+            "ja": {
+              "title": "日本語",
+              "description": "日本語の中級レベルの能力があり、日常会話や多くの文書を理解できます。",
+              "level": "中級"
+            },
+            "zh": {
+              "title": "日文",
+              "description": "具有中等水平的日文能力；能進行日常生活對話並理解大部分的文章",
+              "level": "中級"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

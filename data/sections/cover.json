@@ -1,0 +1,46 @@
+{
+  "articles": [
+    {
+      "id": 1,
+      "component": "ArticleProfile",
+      "locales": {},
+      "settings": {
+        "order_items_by": "id",
+        "order_items_sort": "asc",
+        "contact_list_ids": ["address", "email", "phone"],
+        "contact_circles_ids": ["instagram", "facebook", "linkedin", "github"]
+      },
+      "items": [
+        {
+          "id": 1,
+          "locales": {
+            "en": {
+              "description": "Filled with curiosity about life and eager to explore various possibilities, I enjoy discovering my capabilities and pushing beyond my limits. Through a fortunate encounter with frontend technologies, I developed a profound interest in this field, which led me to decisively leave my compatibility testing position of 8 years to focus entirely on programming. Beyond attending in-person courses, I dedicate my free time to enhancing my skills through Udemy online courses, and when faced with challenges, I seek solutions on Stack Overflow."
+            },
+            "ja": {
+              "description": "人生に対する好奇心に満ち、様々な可能性を探求することに熱心で、自分の能力を発見し限界を超えることを楽しんでいます。フロントエンド技術との幸運な出会いを通じて、この分野に深い関心を持つようになり、8年間務めた互換性テストの職を決然と離れ、プログラミングに完全に集中することを決意しました。対面式のコースに参加するだけでなく、空き時間をUdemyのオンラインコースで技術を高めることに捧げ、課題に直面した際にはStack Overflowで解決策を探しています。"
+            },
+            "zh": {
+              "description": "對生活充滿好奇心，樂於嘗試不同可能性，探索自己的能力，挑戰極限。因緣際會接觸到前端技術並且產生強烈的熱忱，便毅然離開了工作8年的相容性測試職務，專心學習程式技術。除了參加實體課程之外，閒暇時也利用線上Udemy課程努力精進自我，遇到問題時則從Stack Overflow尋找解決方案。"
+            }
+          }
+        },
+
+        {
+          "id": 2,
+          "locales": {
+            "en": {
+              "description": "While coding itself may seem mechanical and repetitive, the true joy of programming lies in the process of solving problems and transforming solutions into code. Through my professional experience, I've deeply appreciated the value of teamwork and technical exchange. Without communication, meaningful growth rarely occurs. I look forward to collaborating with professionals from diverse fields and advancing together with every colleague in the workplace!"
+            },
+            "ja": {
+              "description": "コーディング自体は機械的で反復的に見えるかもしれませんが、プログラミングの真の喜びは問題を解決し、解決策をコードに変換するプロセスにあります。私の職業経験を通じて、チームワークと技術交流の価値を深く理解してきました。コミュニケーションがなければ、意味のある成長はめったに起こりません。多様な分野の専門家との協力や、職場の全ての同僚と共に成長していくことを楽しみにしています！"
+            },
+            "zh": {
+              "description": "單純的coding動作其實挺無趣，但是寫程式的醍醐味就在於思考如何將問題解決並且化為程式碼的這段過程。在過往的工作經驗中，深刻體會到團隊之間的配合及技術交流，沒有交流就不會有成長，期盼未來透過與各個角色的協作，與工作上每個夥伴一起往前成長邁進！"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

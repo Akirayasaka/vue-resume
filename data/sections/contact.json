@@ -1,0 +1,58 @@
+{
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleContactForm",
+            "locales": {
+                "en": {
+                    "contact_thank_you": "*Thanks* for the contact!",
+                    "contact_thank_you_description": "I have received your message and will contact you promptly. Thank you for your valuable time, and I look forward to our further discussion.",
+                    "contact_thank_you_reply": "The reply will be sent to your email address *{email}*."
+                },
+                "ja": {
+                    "contact_thank_you": "*ご連絡*ありがとうございます！",
+                    "contact_thank_you_description": "ご連絡を頂き、ありがとうございます。早急にご返信させていただきます。お忙しい中、お時間を割いていただきまして感謝申し上げます。今後のさらなる対話を楽しみにしております。",
+                    "contact_thank_you_reply": "返信はあなたのメールアドレス *{email}* に送信されます。"
+                },
+                "zh": {
+                    "contact_thank_you": "*感謝*您的聯繫！",
+                    "contact_thank_you_description": "您的消息已收到，我會盡快與您聯繫。感謝您寶貴的時間，期待與您交流！",
+                    "contact_thank_you_reply": "回覆訊息會發送至您的電子郵件信箱 *{email}*。"
+                }
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc",
+                "contact_js_public_key": "tzObcsmOwHvPy6Rhp",
+                "contact_js_service_id": "service_4h8g7vb",
+                "contact_js_template_id": "template_kplo17d"
+            },
+            "items": null
+        },
+
+        {
+            "id": 2,
+            "component": "ArticleContactOptions",
+            "locales": {
+                "en": {
+                    "title": "Or...",
+                    "description": "If you prefer, you can reach out to me through the following options:"
+                },
+                "ja": {
+                    "title": "または...",
+                    "description": "もしよろしければ、以下のオプションを通じてご連絡いただけます:"
+                },
+                "zh": {
+                    "title": "或者...",
+                    "description": "可以透過以下方式和我聯繫:"
+                }
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc",
+                "contact_ids": ["address", "phone", "email", "linkedin", "facebook", "github"]
+            },
+            "items": null
+        }
+    ]
+}

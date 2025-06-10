@@ -1,0 +1,158 @@
+{
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleTimeline",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "desc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "dateStart": {"year": 2004, "month": 8},
+                    "dateEnd": {"year": 2009, "month": 5},
+                    "img": "images/places/Feng_Chia_University_Logo.svg",
+                    "fallbackFaIcon": null,
+                    "fallbackFaIconColor": null,
+
+                    "locales": {
+                        "en": {
+                            "title": "Department of Industrial Engineering and Systems Management",
+                            "description": "Studied fundamentals of computer science, including programming and basic data structures. Developed problem-solving and logical thinking skills.",
+                            "province": "Taichung",
+                            "country": "Taiwan",
+                            "institution": "Feng Chia University",
+                            "tags": []
+                        },
+                        "ja": {
+                            "title": "工業工学およびシステム管理学科",
+                            "description": "プログラミングや基礎的なデータ構造など、コンピュータサイエンスの基礎を学びました。問題解決力と論理的思考力を養いました。",
+                            "province": "台中",
+                            "country": "台湾",
+                            "institution": "逢甲大学",
+                            "tags": []
+                        },
+                        "zh": {
+                            "title": "工業工程與系統管理學系",
+                            "description": "學習計算機概論的知識，如程式設計和基礎資料結構。培養解決問題和邏輯思考的能力",
+                            "province": "台中",
+                            "country": "台灣",
+                            "institution": "逢甲大學",
+                            "tags": []
+                        }
+                    }
+                },
+
+                {
+                    "id": 2,
+                    "dateStart": {"year": 2018, "month": 7},
+                    "dateEnd": {"year": 2022, "month": 6},
+                    "img": "",
+                    "fallbackFaIcon": "fa-solid fa-laptop-code",
+                    "fallbackFaIconColor": "#140f29",
+
+                    "locales": {
+                        "en": {
+                            "title": "Technical Course in Programming",
+                            "description": "Completed a technical course focusing on software development fundamentals, including object-oriented programming, web development, and database management. Developed several projects applying real-world coding skills.",
+                            "province": "New Taipei City",
+                            "country": "Taiwan",
+                            "institution": "Udemy Online Course",
+                            "tags": []
+                        },
+                        "ja": {
+                            "title": "プログラミング技術コース",
+                            "description": "ソフトウェア開発の基礎（オブジェクト指向プログラミング、Web開発、データベース管理など）に焦点を当てた技術コースを修了。実際に動作する複数のプロジェクトを開発し、実践的なコーディングスキルを身につけました。",
+                            "province": "新北市",
+                            "country": "台湾",
+                            "institution": "Udemyオンラインコース",
+                            "tags": []
+                        },
+                        "zh": {
+                            "title": "程式技術課程",
+                            "description": "學習完整的技術課程，專注於軟體開發的基礎知識，包括物件導向程式設計、網頁開發和資料庫管理。實作了數個實際能運作的專案",
+                            "province": "新北市",
+                            "country": "台灣",
+                            "institution": "Udemy線上課程",
+                            "tags": []
+                        }
+                    }
+                },
+
+                {
+                    "id": 3,
+                    "dateStart": {"year": 2019, "month": 2},
+                    "dateEnd": {"year": 2019, "month": 8},
+                    "img": "images/places/ROC_Workforce_Development_Agency_Emblem.svg",
+                    "fallbackFaIcon": null,
+                    "fallbackFaIconColor": null,
+
+                    "locales": {
+                        "en": {
+                            "title": "PHP Web Design and Development",
+                            "description": "A six-month, five-days-a-week in-person course focused on PHP and MySQL development.",
+                            "province": "New Taipei City",
+                            "country": "Taiwan",
+                            "institution": "Workforce Development Agency, Ministry of Labor (Northern Branch)",
+                            "tags": []
+                        },
+                        "ja": {
+                            "title": "PHPウェブデザインと開発",
+                            "description": "半年間、週5日の対面コースで、PHPとMySQLの開発知識を学びました。",
+                            "province": "新北市",
+                            "country": "台湾",
+                            "institution": "労働部労働力発展署北基宜花金馬分署",
+                            "tags": []
+                        },
+                        "zh": {
+                            "title": "PHP網頁設計與開發",
+                            "description": "參加勞動部為期半年每周五天的實體課程，學習PHP和MySQL相關開發知識",
+                            "province": "新北市",
+                            "country": "台灣",
+                            "institution": "勞動部勞動力發展署北基宜花金馬分署",
+                            "tags": []
+                        }
+                    }
+                },
+
+                {
+                    "id": 4,
+                    "dateStart": {"year": 2021, "month": 8},
+                    "dateEnd": {"year": 2026, "month": 5},
+                    "img": "images/places/Fu_Jen_Catholic_University.svg",
+                    "fallbackFaIcon": null,
+                    "fallbackFaIconColor": null,
+
+                    "locales": {
+                        "en": {
+                            "title": "Master's Degree in Computer Science and Information Engineering",
+                            "description": "Advanced coursework in computer science, including network architecture, operating systems, and heuristic algorithms.",
+                            "province": "New Taipei City",
+                            "country": "Taiwan",
+                            "institution": "Fu Jen Catholic University",
+                            "tags": []
+                        },
+                        "ja": {
+                            "title": "情報工学修士課程",
+                            "description": "ネットワークアーキテクチャ、オペレーティングシステム、ヒューリスティックアルゴリズムなどの高度な情報工学の知識を習得。",
+                            "province": "新北市",
+                            "country": "台湾",
+                            "institution": "輔仁大学",
+                            "tags": []
+                        },
+                        "zh": {
+                            "title": "資訊工程碩士學位",
+                            "description": "補足資訊本科的知識，如網路底層架構、作業系統、啟發式演算法等進階課程",
+                            "province": "新北市",
+                            "country": "台灣",
+                            "institution": "輔仁大學",
+                            "tags": []
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

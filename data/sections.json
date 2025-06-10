@@ -1,0 +1,171 @@
+{
+    "sections": [
+        {
+            "id": "about",
+            "categoryId": "home",
+            "jsonPath": "/sections/cover.json",
+            "faIcon": "fa-solid fa-address-card",
+            "type": "centered",
+            "locales": {
+                "en": {
+                    "title": "Welcome to *my resume!*",
+                    "title_short": "Welcome!",
+                    "description": null,
+                    "nav_label": "About"
+                },
+                "ja": {
+                    "title": "*私の履歴書*へようこそ！",
+                    "title_short": "ようこそ！",
+                    "description": null,
+                    "nav_label": "概要"
+                },
+                "zh": {
+                    "title": "歡迎參觀個人簡歷！*",
+                    "title_short": "歡迎！",
+                    "description": null,
+                    "nav_label": "關於"
+                }
+            }
+        },
+
+        {
+            "id": "education",
+            "categoryId": "background",
+            "jsonPath": "/sections/education.json",
+            "faIcon": "fa-solid fa-graduation-cap",
+            "type": "column",
+            "locales": {
+                "en": {
+                    "title": "*Educational* Background",
+                    "title_short": null,
+                    "description": "A glimpse into my academic trajectory and accomplishments.",
+                    "nav_label": "Education"
+                },
+                "ja": {
+                    "title": "*学歴*",
+                    "title_short": null,
+                    "description": "私の学業の歩みと実績をご紹介します",
+                    "nav_label": "学歴"
+                },
+                "zh": {
+                    "title": "*教育* 背景",
+                    "title_short": null,
+                    "description": "過往的學術軌跡與成就",
+                    "nav_label": "教育背景"
+                }
+            }
+        },
+
+        {
+            "id": "skills",
+            "categoryId": "showcase",
+            "jsonPath": "/sections/skills.json",
+            "faIcon": "fa-solid fa-tools",
+            "type": "column",
+            "locales": {
+                "en": {
+                    "title": "*Skill* Set",
+                    "title_short": null,
+                    "description": "Exploring the diverse range of skills I've acquired and developed:",
+                    "nav_label": "Skills"
+                },
+                "ja": {
+                    "title": "*スキル* セット",
+                    "title_short": null,
+                    "description": "私が習得し、発展させてきた多様なスキルをご紹介します。",
+                    "nav_label": "スキル"
+                },
+                "zh": {
+                    "title": "*技能* 組合",
+                    "title_short": null,
+                    "description": "探索我所掌握和發展中的各式技能:",
+                    "nav_label": "技能"
+                }
+            }
+        },
+
+        {
+            "id": "experience",
+            "categoryId": "background",
+            "jsonPath": "/sections/experience.json",
+            "faIcon": "fa-solid fa-briefcase",
+            "type": "column",
+            "locales": {
+                "en": {
+                    "title": "*Professional* Experience",
+                    "title_short": null,
+                    "description": "A look into my work experience and career journey.",
+                    "nav_label": "Experience"
+                },
+                "ja": {
+                    "title": "*職務* 経歴",
+                    "title_short": null,
+                    "description": "私の職務経験とキャリアの歩みをご紹介します。",
+                    "nav_label": "職務経歴"
+                },
+                "zh": {
+                    "title": "*專業* 經驗",
+                    "title_short": null,
+                    "description": "了解我的工作經驗和職涯旅程",
+                    "nav_label": "工作經歷"
+                }
+            }
+        },
+
+        {
+            "id": "portfolio",
+            "categoryId": "showcase",
+            "jsonPath": "/sections/portfolio.json",
+            "faIcon": "fa-solid fa-folder-open",
+            "type": "column",
+            "locales": {
+                "en": {
+                    "title": "*Watchlist*",
+                    "title_short": null,
+                    "description": "Browse my recently followed or interesting projects.",
+                    "nav_label": "Watchlist"
+                },
+                "ja": {
+                    "title": "ウォッチ*リスト*",
+                    "title_short": null,
+                    "description": "最近注目しているプロジェクトをご覧ください。",
+                    "nav_label": "ウォッチリスト"
+                },
+                "zh": {
+                    "title": "關注*清單*",
+                    "title_short": null,
+                    "description": "瀏覽最近感興趣的項目",
+                    "nav_label": "關注清單"
+                }
+            }
+        },
+
+        {
+            "id": "contact",
+            "categoryId": "more",
+            "jsonPath": "/sections/contact.json",
+            "faIcon": "fa-solid fa-pen-to-square",
+            "type": "column",
+            "locales": {
+                "en": {
+                    "title": "*Contact* Me",
+                    "title_short": null,
+                    "description": "Please don't hesitate to get in touch with me whenever you feel the need!",
+                    "nav_label": "Contact"
+                },
+                "ja": {
+                    "title": "*連絡*してください",
+                    "title_short": null,
+                    "description": "ご用の際は、いつでもお気軽にご連絡ください！",
+                    "nav_label": "連絡先"
+                },
+                "zh": {
+                    "title": "*聯絡*我",
+                    "title_short": null,
+                    "description": "如果您有任何需要，請隨時與我聯繫！",
+                    "nav_label": "聯絡方式"
+                }
+            }
+        }
+    ]
+}

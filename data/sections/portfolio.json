@@ -1,0 +1,298 @@
+{
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticlePortfolio",
+            "locales": {
+                "en": {
+                    "title": null,
+                    "category_all": "All",
+                    "category_productivity": "Productivity",
+                    "category_social": "Social",
+                    "category_utilities": "Utilities"
+                },
+                "ja": {
+                    "title": null,
+                    "category_all": "すべて",
+                    "category_productivity": "生産性",
+                    "category_social": "ソーシャル",
+                    "category_utilities": "ユーティリティ"
+                },
+                "zh": {
+                    "title": null,
+                    "category_all": "全部",
+                    "category_productivity": "生產力",
+                    "category_social": "社交",
+                    "category_utilities": "工具"
+                }
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "images/portfolio/Angular_gradient.png",
+                    "fallbackFaIcon": "",
+                    "fallbackFaIconColor": null,
+                    "category": "productivity",
+                    "locales": {
+                        "en": {
+                            "title": "Angular",
+                            "description": "<b>Angular</b> is an open-source web application framework based on TypeScript, developed and maintained by Google. It is a full-featured framework that provides a variety of tools and APIs to help developers build scalable and reliable web applications. Angular is component-based and includes features such as routing, form management, client-server communication, and comprehensive development tools to simplify and optimize the development process.",
+                            "tags": ["application", "productivity", "Rxjs", "Google"]
+                        },
+                        "ja": {
+                            "description": "<b>Angular</b>は、Googleによって開発・保守されているTypeScriptベースのオープンソースWebアプリケーションフレームワークです。さまざまなツールやAPIを提供し、スケーラブルで信頼性の高いWebアプリケーションの構築を支援します。Angularはコンポーネントベースで、ルーティング、フォーム管理、クライアント・サーバー通信などの機能も備え、開発プロセスを簡素化・最適化するための開発ツールも充実しています。",
+                            "tags": ["アプリケーション", "生産性", "Rxjs", "Google"]
+                        },
+                        "zh": {
+                            "description": "<b>Angular</b> Angular是一個基於TypeScript的開源Web應用框架，由Google開發和維護。 它是一個全功能的框架，提供各種工具和API，幫助開發者建立可擴展、可靠的Web應用程式。 Angular以元件化為基礎，也包含路由、表單管理、客戶端與伺服器端通訊等功能，並提供完善的開發工具，簡化和優化開發流程。",
+                            "tags": ["應用程式", "生產力", "Rxjs", "Google"]
+                        }
+                    },
+                    "links": [
+                        {"faIcon": "fa-solid fa-globe", "href": "https://angular.dev/", "stringKey": "view_on_website"}
+                    ]
+                },
+
+                {
+                    "id": 2,
+                    "img": "images/portfolio/React-icon.svg",
+                    "fallbackFaIcon": "",
+                    "fallbackFaIconColor": null,
+                    "category": "productivity",
+                    "locales": {
+                        "en": {
+                            "title": "React",
+                            "description": "<b>React</b> is a library for building user interfaces. React is not a framework – it's not even exclusive to the web. It's used with other libraries to render to certain environments.React's primary goal is to minimize the bugs that occur when developers are building UIs. It does this through the use of components — self-contained, logical pieces of code that describe a portion of the user interface. These components can be composed together to create a full UI, and React abstracts away much of the rendering work, leaving you to concentrate on the UI design.",
+                            "tags": ["application", "productivity", "Redux", "Facebook"]
+                        },
+                        "ja": {
+                            "description": "<b>React</b> はユーザーインターフェイスを構築するためのライブラリーです。 React はフレームワークではなく、ウェブに限定されるものでもありません。他のライブラリーと共に使用して、特定の環境にレンダリングします。React が目指すところは、開発者が UI を構築しているときに発生するバグを最小限に抑えることです。これは、コンポーネント（ユーザーインターフェイスの一部を記述する自己完結型の論理的なコード）を使用して行われます。これらのコンポーネントを組み合わせて完全な UI を作成でき、 React はレンダリング作業の大部分を抽象化して、UI デザインに集中できるようにします。",
+                            "tags": ["アプリケーション", "生産性", "Redux", "Facebook"]
+                        },
+                        "zh": {
+                            "description": "<b>React</b> 是一個用來建構使用者介面的函式庫。React 不是框架——它甚至不是 web 獨有的開發技術，它可以和其他函式庫或套件搭配使用，以在特定環境中渲染。主要目標是最大限度減少開發者建構 UI 介面時出現的錯誤。它通過使用元件——描述部分使用者界面且自成一體的邏輯與程式碼段落來實現這點。這些元件可以組合在一起以建立完整的 UI 界面，React 將大部分的渲染邏輯給抽象化出來，讓你可以專注於 UI 層的程式設計。",
+                            "tags": ["應用程式", "生產力", "Redux", "Facebook"]
+                        }
+                    },
+                    "links": [
+                        {"faIcon": "fa-solid fa-globe", "href": "https://react.dev/", "stringKey": "view_on_website"}
+                    ]
+                },
+
+                {
+                    "id": 3,
+                    "img": "images/portfolio/Vue_Logo.svg",
+                    "fallbackFaIcon": "fa-solid fa-crow",
+                    "fallbackFaIconColor": "#7c4d91",
+                    "category": "productivity",
+                    "locales": {
+                        "en": {
+                            "title": "Vue",
+                            "description": "<b>Vue</b> is a JavaScript framework for building user interfaces. It builds on top of standard HTML, CSS, and JavaScript and provides a declarative, component-based programming model that helps you efficiently develop user interfaces of any complexity.",
+                            "tags": ["application", "productivity", "Pinia", "Vite"]
+                        },
+                        "ja": {
+                            "description": "<b>Vue</b> は、ユーザーインターフェースの構築のための JavaScript フレームワークです。標準的な HTML、CSS、JavaScript の上に構築され、あらゆる複雑さのユーザーインターフェースを効率的に開発するのに役立つ、宣言的でコンポーネントベースのプログラミングモデルを提供します。",
+                            "tags": ["アプリケーション", "生産性", "Pinia", "Vite"]
+                        },
+                        "zh": {
+                            "description": "<b>Vue</b> 是一款用於構建用戶界面的 JavaScript 框架。它基於標準 HTML、CSS 和 JavaScript 構建，並提供了一套聲明式的、組件化的編程模型，幫助你高效地開發用戶界面。無論是簡單還是複雜的界面，Vue 都可以勝任。",
+                            "tags": ["應用程式", "生產力", "Pinia", "Vite"]
+                        }
+                    },
+                    "links": [
+                        {"faIcon": "fa-solid fa-globe", "href": "https://vuejs.org/", "stringKey": "view_on_website"}
+                    ]
+                },
+
+                {
+                    "id": 4,
+                    "img": "images/portfolio/Visual_Studio_Icon_2022.svg",
+                    "fallbackFaIcon": "",
+                    "fallbackFaIconColor": null,
+                    "category": "utilities",
+                    "locales": {
+                        "en": {
+                            "title": "Visual Studio",
+                            "description": "<b>Microst Visual Studio</b> is an integrated development environment (IDE) developed by Microsoft. It is used to develop computer programs including websites, web apps, web services and mobile apps. Visual Studio uses Microsoft software development platforms including Windows API, Windows Forms, Windows Presentation Foundation (WPF), Microsoft Store and Microsoft Silverlight. It can produce both native code and managed code. Visual Studio includes a code editor supporting IntelliSense (the code completion component) as well as code refactoring. The integrated debugger works as both a source-level debugger and as a machine-level debugger. Other built-in tools include a code profiler, designer for building GUI applications, web designer, class designer, and database schema designer.",
+                            "tags": ["application", "Open source", "MicroSoft"]
+                        },
+                        "ja": {
+                            "description": "<b>Microst Visual Studio</b> は、マイクロソフトが開発・販売している統合開発環境（IDE）である。Microsoft Windowsオペレーティングシステム、Windowsデバイスドライバー、Windowsサービス、アプリケーションソフトウェア（デスクトップアプリ、UWPアプリ、モバイルアプリ）、Webサイト、Webアプリ、Webサービスなどの開発に使用されている。オプションとして用意されている各種コンポーネントを追加インストールすることで、Windowsプラットフォーム以外にも、LinuxやAndroidといった他プラットフォーム向けアプリケーションのクロス開発も可能となっている。",
+                            "tags": ["アプリケーション", "Open source", "MicroSoft"]
+                        },
+                        "zh": {
+                            "description": "<b>Microst Visual Studio</b> 是微軟公司的開發工具套件系列產品。VS是一個基本完整的開發工具集，它包括了整個軟體生命周期中所需要的大部分工具，如UML工具、程式碼管控工具、整合開發環境（IDE）等等。所寫的目的碼適用於微軟支援的所有平台，包括Microsoft Windows、Windows CE、.NET、.NET Framework、.NET Compact Framework和Microsoft Silverlight。而Visual Studio .NET是用於快速生成企業級ASP.NET Web應用程式和高效能桌面應用程式的工具。Visual Studio包含基於組件的開發工具（如Visual C#、Visual J#、Visual Basic和Visual C++），以及許多用於簡化基於小組的解決方案的設計、開發和部署的其他技術。",
+                            "tags": ["應用程式", "開源軟體", "MicroSoft"]
+                        }
+                    },
+                    "links": [
+                        {"faIcon": "fa-solid fa-globe", "href": "https://visualstudio.microsoft.com/", "stringKey": "view_on_website"}
+                    ]
+                },
+
+                {
+                    "id": 5,
+                    "img": "images/portfolio/sqlserver.png",
+                    "fallbackFaIcon": "",
+                    "fallbackFaIconColor": null,
+                    "category": "utilities",
+                    "locales": {
+                        "en": {
+                            "title": "SQL Server Management Studio",
+                            "description": "Meet <b>SQL Server Management Studio</b>, the powerful tool for managing SQL Server databases! Designed to make database management easy and efficient, <b>SQL Server Management Studio</b> offers a user-friendly interface, advanced features, and robust performance to help you work with your databases seamlessly. Whether you’re a beginner or an experienced DBA, this tool has everything you need to manage your SQL Server instances effectively.",
+                            "tags": ["database", "management", "SQL Server", "Microsoft"]
+                        },
+                        "ja": {
+                            "description": "<b>SQL Server Management Studio</b> の登場です！この強力なツールは、SQL Server データベースの管理を簡単かつ効率的に行うために設計されています。ユーザーフレンドリーなインターフェース、高度な機能、堅牢なパフォーマンスを提供し、データベースをシームレスに操作できるようにします。初心者でも経験豊富な DBA でも、このツールは SQL Server インスタンスを効果的に管理するために必要なすべてを備えています。",
+                            "tags": ["データベース", "管理", "SQL Server", "Microsoft"]
+                        },
+                        "zh": {
+                            "description": "<b>SQL Server Management Studio</b> 的登場！這個強大的工具旨在簡化 SQL Server 數據庫的管理。它提供了用戶友好的界面、高級功能和穩健的性能，幫助您無縫地處理資料庫。無論您是初學者還是經驗豐富的 DBA，這個工具都能滿足您有效管理 SQL Server 實例的所有需求。",
+                            "tags": ["資料庫", "管理", "SQL Server", "MicroSoft"]
+                        }
+                    },
+                    "links": [
+                        {"faIcon": "fa-solid fa-globe", "href": "https://learn.microsoft.com/zh-tw/ssms/", "stringKey": "view_on_website"}
+                    ]
+                },
+
+                {
+                    "id": 6,
+                    "img": "images/portfolio/Visual_Studio_Code.png",
+                    "fallbackFaIcon": "",
+                    "fallbackFaIconColor": null,
+                    "category": "utilities",
+                    "locales": {
+                        "en": {
+                            "title": "Visual Studio Code",
+                            "description": "<b>Visual Studio Code</b> is an integrated development environment developed by Microsoft for Windows, Linux, macOS and web browsers.Features include support for debugging, syntax highlighting, intelligent code completion, snippets, code refactoring, and embedded version control with Git. Users can change the theme, keyboard shortcuts and preferences, as well as install extensions that add functionality.",
+                            "tags": ["application", "Open source", "MicroSoft"]
+                        },
+                        "ja": {
+                            "description": "<b>Visual Studio Code</b> はMicrosoftが開発しているWindows、Linux、macOS、Web用のソースコードエディタである。Electronをベースにしており、デバッグ、埋め込みGitコントロールとGitHub連携、シンタックスハイライト、インテリジェントなコード補完 、スニペット、コードリファクタリングのサポートが含まれる。カスタマイズ性が高く、テーマやキーボードショートカット、環境設定を変更できたり、機能を追加する拡張機能をインストールすることができる。ソースコードはフリーかつオープンソースで、寛容なMITライセンスの下でリリースされている。コンパイルされたバイナリはプロプライエタリソフトウェアである。",
+                            "tags": ["アプリケーション", "Open source", "MicroSoft"]
+                        },
+                        "zh": {
+                            "description": "<b>Visual Studio Code</b> 是一款由微軟開發且跨平台的免費原始碼編輯器。該軟體以擴充元件的方式支援語法突顯、程式碼自動補全（又稱 IntelliSense）、程式碼重構功能，並且內建了命令列工具和 Git 版本控制系統。使用者可以更改佈景主題和鍵盤捷徑實現個人化設定，也可以透過內建的擴充元件程式商店安裝其他擴充元件以加強軟體功能。",
+                            "tags": ["應用程式", "開源軟體", "MicroSoft"]
+                        }
+                    },
+                    "links": [
+                        {"faIcon": "fa-solid fa-globe", "href": "https://code.visualstudio.com/", "stringKey": "view_on_website"}
+                    ]
+                },
+
+                {
+                    "id": 7,
+                    "img": "images/portfolio/discord.png",
+                    "fallbackFaIcon": "",
+                    "fallbackFaIconColor": null,
+                    "category": "social",
+                    "locales": {
+                        "en": {
+                            "title": "Discord",
+                            "description": "<b>Discord</b>is an instant messaging and VoIP social platform which allows communication through voice calls, video calls, text messaging, and media. Communication can be private or take place in virtual communities called servers.  Discord runs on Windows, macOS, Android, iOS, iPadOS, Linux, and in web browsers.",
+                            "tags": ["app", "streaming", "message", "entertainment"]
+                        },
+                        "es": {
+                            "description": "<b>Discord</b>は、Windows・macOS・Linux・Android・iOS・Webブラウザで動作する、インスタントメッセージ（コミュニケーションサービス・チャットアプリ）・ビデオ通話・音声通話・VoIPフリーウェアである。アメリカ合衆国で開発されており、2024年時点で5億6,000万人近くに達している",
+                            "tags": ["アプリケーション", "ストリーミング", "メッセージ", "エンターテイメント"]
+                        },
+                        "zh": {
+                            "description": "<b>Discord</b>是由美國Discord公司所開發的一款專為社群設計的免費網路即時通話軟體與數位發行平台，主要針對遊戲玩家、教育人士、朋友及商業人士，使用者之間可以在軟體的聊天頻道通過訊息、圖片、影片和音訊進行交流。",
+                            "tags": ["應用程式", "串流", "訊息", "娛樂"]
+                        }
+                    },
+                    "links": [
+                        {"faIcon": "fa-brands fa-apple", "href": "https://apps.apple.com/us/app/discord-talk-play-hang-out/id985746746?attemptId=ecbba790-fd20-4999-960c-77093b22806f&fingerprint=1375311846961188885.4FjU02eaPL2QcJelbh6tLyG6Dgg", "stringKey": "view_on_app_store"},
+                        {"faIcon": "fa-brands fa-google-play", "href": "https://play.google.com/store/apps/details?id=com.discord&fingerprint=1375311846961188885.4FjU02eaPL2QcJelbh6tLyG6Dgg&attemptId=7b2c4da2-5e41-4cbc-814a-9a02dd4a8a67&pli=1", "stringKey": "view_on_google_play"},
+                        {"faIcon": "fa-brands fa-windows", "href": "https://discord.com/download", "stringKey": "view_on_windows_store"}
+                    ]
+                },
+
+                {
+                    "id": 10,
+                    "img": "images/portfolio/Microsoft_.NET_logo.svg",
+                    "fallbackFaIcon": "",
+                    "fallbackFaIconColor": null,
+                    "category": "productivity",
+                    "locales": {
+                        "en": {
+                            "title": ".NET",
+                            "description": "<b>The .NET platform </b>is a free and open-source, managed computer software framework for Windows, Linux, and macOS operating systems.The project is mainly developed by Microsoft employees by way of the .NET Foundation and is released under an MIT License.",
+                            "tags": ["cross platform", "productivity", "Open source", "MicroSoft"]
+                        },
+                        "ja": {
+                            "description": "<b>.NET</b> は、.NETを実装したFOSSのクロスプラットフォームマネージソフトウェアフレームワークである。.NET 5以降は、.NET FrameworkおよびXamarin/Monoの機能が統合され、それらの後継にもなっている。",
+                            "tags": ["ajedrez", "estrategia", "aprendizaje", "entrenamiento", "educación"]
+                        },
+                        "zh": {
+                            "description": "<b>.NET Framework</b> 是微軟開發的第一個跨平台的應用程式開發框架，未來也將會支援FreeBSD與Alpine平台。.Net也是微軟在一開始發展時就開源的軟體平台 .NET。包含 .NET Framework的類別庫，但與 .NET Framework不同的是 .NET採用套件化（Packages）的管理方式，應用程式只需要取得需要的組件即可，與 .NET Framework大包式安裝的作法截然不同，同時各套件亦有獨立的版本線（Version line），不再硬性要求應用程式跟隨主線版本。",
+                            "tags": ["跨平台", "生產力", "開源軟體", "MicroSoft"]
+                        }
+                    },
+                    "links": [
+                        {"faIcon": "fa-solid fa-globe", "href": "https://dotnet.microsoft.com/zh-tw/", "stringKey": "view_on_website"}
+                    ]
+                },
+
+                {
+                    "id": 11,
+                    "img": "images/portfolio/comfyui_logo.jpg",
+                    "fallbackFaIcon": "",
+                    "fallbackFaIconColor": null,
+                    "category": "utilities",
+                    "locales": {
+                        "en": {
+                            "title": "ComfyUI",
+                            "description": "<b>ComfyUI</b> ComfyUI is an open source, node-based program that allows users to generate images from a series of text prompts. It uses free diffusion models such as Stable Diffusion as the base model for its image capabilities combined with other tools such as ControlNet and LCM Low-rank adaptation with each tool being represented by a node in the program.",
+                            "tags": ["app", "AI Paint", "Open source"]
+                        },
+                        "ja": {
+                            "description": "<b>ComfyUI</b> は、ユーザーが一連のテキストプロンプトから画像を生成できるオープンソースのノードベースプログラムです。Stable Diffusionなどの無料拡散モデルを画像機能のベースモデルとして使用し、ControlNetやLCM低ランク適応などの他のツールと組み合わせて、各ツールがプログラム内のノードとして表現されます。",
+                            "tags": ["アプリ", "AIペイント", "オープンソース"]
+                        },
+                        "zh": {
+                            "description": "<b>ComfyUI</b> 是一個開源的、基於節點的程序，允許使用者根據一系列文字提示產生圖像。它使用穩定擴散等自由擴散模型作為其影像功能的基礎模型，並結合 ControlNet 和 LCM 低階自適應等其他工具，每個工具都由程式中的一個節點表示。",
+                            "tags": ["應用程式", "AI繪圖", "開源軟體"]
+                        }
+                    },
+                    "links": [
+                        {"faIcon": "fa-solid fa-globe", "href": "https://www.comfy.org/", "stringKey": "view_on_website"}
+                    ]
+                },
+
+                {
+                    "id": 12,
+                    "img": "images/portfolio/project-logo-3.png",
+                    "fallbackFaIcon": "",
+                    "fallbackFaIconColor": null,
+                    "category": "productivity",
+                    "locales": {
+                        "en": {
+                            "title": "Stable Diffusion",
+                            "description": "<b>Stable Diffusion</b> is a deep learning, text-to-image model released in 2022 based on diffusion techniques. The generative artificial intelligence technology is the premier product of Stability AI and is considered to be a part of the ongoing artificial intelligence boom.It is primarily used to generate detailed images conditioned on text descriptions, though it can also be applied to other tasks such as inpainting, outpainting, and generating image-to-image translations guided by a text prompt.",
+                            "tags": ["AI", "Model training", "paint", "productivity"]
+                        },
+                        "ja": {
+                            "description": "<b>Stable Diffusion</b>は、拡散技術に基づいて2022年にリリースされた深層学習のテキストから画像へのモデルです。この生成的人工知能技術は、Stability AIの主要製品であり、進行中の人工知能ブームの一部と見なされています。主にテキストの説明に基づいて詳細な画像を生成するために使用されますが、インペインティング、アウトペインティング、テキストプロンプトにガイドされた画像間の変換生成など、他のタスクにも適用できます。",
+                            "tags": ["AI", "モデル訓練", "ペイント", "生産性"]
+                        },
+                        "zh": {
+                            "description": "<b>Stable Diffusion</b> 主要用於根據文字的描述產生詳細圖像，也可以應用於其他任務，如內補繪製、外補繪製，以及在提示詞指導下產生圖生圖的轉變。Stable Diffusion由3個部分組成：變分自編碼器（VAE）、U-Net和一個文字編碼器。與其學習去噪圖像數據（在「像素空間」中），而是訓練VAE將圖像轉換為低維潛在空間。",
+                            "tags": ["AI", "模型訓練", "繪圖", "生產力"]
+                        }
+                    },
+                    "links": [
+                        {"faIcon": "fa-solid fa-globe", "href": "https://stability.ai/stable-image", "stringKey": "view_on_website"}
+                    ]
+                }
+            ]
+        }
+    ]
+}

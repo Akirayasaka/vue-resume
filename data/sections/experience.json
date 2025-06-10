@@ -1,0 +1,158 @@
+{
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleTimeline",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "desc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "dateStart": {"year": 2010, "month": 11},
+                    "dateEnd": {"year": 2018, "month": 6},
+                    "img": "images/places/logo_allion.png",
+                    "fallbackFaIcon": null,
+                    "fallbackFaIconColor": null,
+
+                    "locales": {
+                        "en": {
+                            "title": "Compatibility Test Engineer",
+                            "description": "Performed routine and non-routine tests on various hardware and software, simulating scenarios that typical consumers might encounter in different situations.",
+                            "province": "Taipei City",
+                            "country": "Taiwan",
+                            "institution": "Allion Labs, Inc.",
+                            "tags": ["Compatibility Testing", "hardware", "software", "Debug", "Stress Testing"]
+                        },
+                        "ja": {
+                            "title": "互換性テストエンジニア",
+                            "description": "さまざまなハードウェアとソフトウェアに対して定期および非定期のテストを実施し、一般消費者がさまざまな状況で遭遇する可能性のあるシナリオをシミュレーションしました。",
+                            "province": "台北市",
+                            "country": "台湾",
+                            "institution": "Allion Labs, Inc.",
+                            "tags": ["互換性テスト", "ハードウェア", "ソフトウェア", "デバッグ", "ストレステスト"]
+                        },
+                        "zh": {
+                            "title": "相容性測試工程師",
+                            "description": "針對各式軟硬體做相容性和壓力測試，模擬一般消費者在各種情境下使用時可能會遇到的狀況，確保客戶產品的可靠度",
+                            "province": "台北市",
+                            "country": "台灣",
+                            "institution": "百佳泰股份有限公司",
+                            "tags": ["相容性測試", "hardware", "software", "Debug", "壓力測試"]
+                        }
+                    }
+                },
+
+                {
+                    "id": 2,
+                    "dateStart": {"year": 2019, "month": 10},
+                    "dateEnd": {"year": 2020, "month": 10},
+                    "img": "images/places/logo_atrustek.png",
+                    "fallbackFaIcon": null,
+                    "fallbackFaIconColor": null,
+
+                    "locales": {
+                        "en": {
+                            "title": "Angular Front-End Engineer",
+                            "description": "Developed using the Angular framework and collaborated with back-end engineers to build the company's corporate website and internal management system, ensuring compatibility and optimal performance across various devices.",
+                            "province": "Taipei City",
+                            "country": "Taiwan",
+                            "institution": "Atrustek Inc.",
+                            "tags": ["Angular", "Front-End", "Fintech", "git"]
+                        },
+                        "ja": {
+                            "title": "Angularフロントエンドエンジニア",
+                            "description": "Angularフレームワークを使用して開発を行い、バックエンドエンジニアと協力して企業の公式ウェブサイトおよび社内管理システムを構築。さまざまなデバイスでの互換性とパフォーマンスの最適化を実現しました。",
+                            "province": "台北市",
+                            "country": "台湾",
+                            "institution": "艾信科股份有限公司",
+                            "tags": ["Angular", "フロントエンド", "Fintech", "git"]
+                        },
+                        "zh": {
+                            "title": "Angular前端工程師",
+                            "description": "使用Angular框架進行開發，並與後端工程師協同製作公司形象官網和內部後台系統，確保網站在各種設備上的相容性和性能最佳化",
+                            "province": "台北市",
+                            "country": "台灣",
+                            "institution": "艾信科股份有限公司",
+                            "tags": ["Angular", "Front-End", "Fintech", "git"]
+                        }
+                    }
+                },
+
+                {
+                    "id": 3,
+                    "dateStart": {"year": 2020, "month": 10},
+                    "dateEnd": {"year": 2021, "month": 10},
+                    "img": "images/places/logo_jc.png",
+                    "fallbackFaIcon": null,
+                    "fallbackFaIconColor": null,
+
+                    "locales": {
+                        "en": {
+                            "title": "ASP.NET MVC Developer",
+                            "description": "Refactored the company's legacy product system using .NET 6 MVC. Integrated Vue.js scripts into cshtml pages for two-way data binding on the frontend, and implemented a three-tier architecture with the Repository pattern on the backend for code management.",
+                            "province": "New Taipei City",
+                            "country": "Taiwan",
+                            "institution": "JC Information Technology Co., Ltd.",
+                            "tags": ["ASP.NET", "MVC", "MS-SQL", "Vue", "Design pattern"]
+                        },
+                        "ja": {
+                            "title": "ASP.NET MVCプログラマー",
+                            "description": ".NET 6 MVCを使用して会社の既存製品システムを刷新。フロントエンドではcshtmlページにVue.jsスクリプトを導入し双方向バインディングを実現。バックエンドは三層アーキテクチャとリポジトリパターンでコード管理を行いました",
+                            "province": "新北市",
+                            "country": "台湾",
+                            "institution": "捷程資訊股份有限公司",
+                            "tags": ["ASP.NET", "MVC", "MS-SQL", "Vue", "デザインパターン"]
+                        },
+                        "zh": {
+                            "title": "ASP.NET MVC 程式設計師",
+                            "description": "使用.NET 6 MVC翻新公司既有的產品系統，前端script引入Vue.js在cshtml頁面上達成雙向綁定，後端則用三層式架構搭配Repository模式來管理程式碼",
+                            "province": "新北市",
+                            "country": "台灣",
+                            "institution": "捷程資訊股份有限公司",
+                            "tags": ["ASP.NET", "MVC", "MS-SQL", "Vue", "設計模式"]
+                        }
+                    }
+                },
+
+                {
+                    "id": 4,
+                    "dateStart": {"year": 2022, "month": 1},
+                    "dateEnd": {"string": "now"},
+                    "img": "images/places/logo_solventosoft.png",
+                    "fallbackFaIcon": null,
+                    "fallbackFaIconColor": null,
+
+                    "locales": {
+                        "en": {
+                            "title": "Senior Engineer",
+                            "description": "Led the front-end team in development, assisted team members in improving technical skills, and planned and designed the underlying architecture of front-end Vue.js code.",
+                            "province": "Taipei City",
+                            "country": "Taiwan",
+                            "institution": "SolventoSoft Co., Ltd.",
+                            "tags": ["Vue.js", "Pinia", "Banking Project", "MOHW Project"]
+                        },
+                        "ja": {
+                            "title": "シニアエンジニア",
+                            "description": "フロントエンドチームの開発を主導し、メンバーの技術力向上を支援。Vue.jsフロントエンドの基盤アーキテクチャ設計・計画を担当。",
+                            "province": "台北市",
+                            "country": "台湾",
+                            "institution": "卓越動力資訊科技有限公司",
+                            "tags": ["Vue.js", "Pinia", "銀行金融プロジェクト", "衛福部プロジェクト"]
+                        },
+                        "zh": {
+                            "title": "資深工程師",
+                            "description": "主導前端團隊進行開發，協助團隊成員提升技術能力，規劃設計前端Vue.js的底層程式碼架構",
+                            "province": "台北市",
+                            "country": "台灣",
+                            "institution": "卓越動力資訊科技有限公司",
+                            "tags": ["Vue.js", "Pinia", "銀行金融專案", "衛服部專案"]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
